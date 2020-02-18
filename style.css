@@ -1,0 +1,36 @@
+*{
+    transition: all 2s;
+}
+
+body {
+    background: skyblue;
+    background-image: url('https://i.pinimg.com/236x/f8/bf/3e/f8bf3e4300e4c6c23552b26b607b3485--hexagon-pattern-cool-patterns.jpg');
+}
+
+.row{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    background: rgba(255, 255, 255,.8);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#bio .column{
+    width: 50%;
+    background: lavender;
+}
+
+.column:hover{
+    transform: rotate(777deg);
+    background: aqua;
+}
+
+#bio .column:hover{
+    transform: rotateY(777deg);
+    background: aquamarine;
+}
